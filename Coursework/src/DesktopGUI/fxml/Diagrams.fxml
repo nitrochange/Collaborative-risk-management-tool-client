@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.chart.PieChart?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DesktopGUI.ProjectMenu.startSubSceneControllers">
+   <children>
+      <GridPane prefHeight="634.0" prefWidth="762.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+         <children>
+            <VBox fx:id="commonFilesVBox" alignment="TOP_CENTER" prefHeight="634.0" prefWidth="760.0" styleClass="background" stylesheets="@../css/StylesForDarkElements.css">
+               <children>
+                  <Label fx:id="projectStatusLabel" text="Project status" textFill="WHITE">
+                     <font>
+                        <Font size="30.0" />
+                     </font>
+                  </Label>
+                  <PieChart fx:id="mainPieChart" prefHeight="594.0" prefWidth="762.0" stylesheets="@../css/StylesForMainPieChart.css" />
+               </children>
+            </VBox>
+         </children>
+      </GridPane>
+   </children>
+</AnchorPane>

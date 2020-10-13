@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="762.0" spacing="20.0" style="-fx-background-color: #f2f3f4;" styleClass="background" stylesheets="@../css/StylesForDarkElements.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DesktopGUI.Notifications.NotificationControllers">
+   <children>
+      <TextField fx:id="receiver" editable="false" prefHeight="35.0" style="-fx-background-color: #f2f3f4;" text="Receiver">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="notification" editable="false" prefHeight="30.0" prefWidth="570.0" style="-fx-background-color: #f2f3f4;" text="Here there is a notification task for you">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+   </children>
+</HBox>

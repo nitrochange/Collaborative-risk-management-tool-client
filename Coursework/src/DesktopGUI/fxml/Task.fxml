@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="40.0" prefWidth="762.0" spacing="20.0" style="-fx-background-color: #f2f3f4;" styleClass="background" stylesheets="@../css/StylesForDarkElements.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DesktopGUI.MyTasks.MyTaskControllers">
+   <children>
+      <ImageView fx:id="receiverPhoto" fitHeight="35.0" fitWidth="35.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/avatarPhotoByDefault.jpg" />
+         </image>
+      </ImageView>
+      <TextField fx:id="taskMessage" prefHeight="39.0" prefWidth="330.0" style="-fx-background-color: #f2f3f4;" text="Here there is a simple task for you">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <TextField fx:id="dateField" prefHeight="38.0" prefWidth="245.0" style="-fx-background-color: #f2f3f4;" text="due to:">
+         <font>
+            <Font size="16.0" />
+         </font>
+      </TextField>
+      <Label text="Done" underline="true">
+         <font>
+            <Font size="18.0" />
+         </font>
+      </Label>
+   </children>
+</HBox>

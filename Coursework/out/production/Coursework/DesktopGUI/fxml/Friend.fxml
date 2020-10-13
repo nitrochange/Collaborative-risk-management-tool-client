@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.Insets?>
+<?import javafx.geometry.Rectangle2D?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<HBox alignment="CENTER_LEFT" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="120.0" prefWidth="762.0" spacing="20.0" styleClass="background" stylesheets="@../css/StylesForDarkElements.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DesktopGUI.Coworkers.FriendControllers">
+   <children>
+      <ImageView fx:id="photo" fitHeight="95.0" fitWidth="300.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../images/profileDefaultAvatar.png" />
+         </image>
+         <viewport>
+            <Rectangle2D />
+         </viewport>
+         <HBox.margin>
+            <Insets />
+         </HBox.margin>
+      </ImageView>
+      <VBox prefHeight="100.0" prefWidth="438.0" spacing="10.0">
+         <children>
+            <Label fx:id="name" text="&lt;Name&gt; &lt;Second Name&gt;" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="status" text="&lt;status&gt;" textFill="WHITE">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label fx:id="message" text="write message" textFill="WHITE" underline="true">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+         </children>
+      </VBox>
+   </children>
+</HBox>

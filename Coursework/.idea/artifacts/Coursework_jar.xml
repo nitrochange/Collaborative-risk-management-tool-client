@@ -1,0 +1,24 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="Coursework:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/Coursework_jar</output-path>
+    <root id="archive" name="Coursework.jar">
+      <element id="module-output" name="Coursework" />
+      <element id="module-output" name="AdditonalLibraries" />
+      <element id="extracted-dir" path="$USER_HOME$/fontawesomefx-fontawesome-4.7.0-9.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/log4j/log4j/1.2.17/log4j-1.2.17.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/src.zip" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx-swt.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx.web.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx.base.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx.fxml.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx.media.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx.swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx.controls.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="C:/javafx-sdk-11.0.2/lib/javafx.graphics.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-log4j12/1.7.30/slf4j-log4j12-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/org/slf4j/slf4j-api/1.7.30/slf4j-api-1.7.30.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$USER_HOME$/fontawesomefx-commons-9.1.2.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$MAVEN_REPOSITORY$/commons-io/commons-io/2.6/commons-io-2.6.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

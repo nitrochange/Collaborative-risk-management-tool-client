@@ -1,0 +1,9 @@
+you> hello!
+col> hi
+you> have you done your first task on this job?
+col> not yet....
+col> it was a little bit harder, then i suppose
+you> not good
+you> can i help you?
+col> no, thanks, I think I get it soon
+you> okey

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.ContextMenu?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.MenuItem?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.Pane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<GridPane alignment="center" hgap="10.0" vgap="10.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DesktopGUI.StartMenu.Controller">
+   <columnConstraints>
+      <ColumnConstraints />
+   </columnConstraints>
+   <rowConstraints>
+      <RowConstraints />
+   </rowConstraints>
+   <children>
+      <AnchorPane maxHeight="634.0" maxWidth="1046.0" minHeight="634.0" minWidth="1046.0" prefHeight="634.0" prefWidth="1046.0">
+         <children>
+            <VBox prefHeight="634.0" prefWidth="284.0" stylesheets="@../css/StylesForButtons.css" AnchorPane.bottomAnchor="0.0" AnchorPane.topAnchor="0.0">
+               <children>
+                  <Pane prefHeight="91.0" prefWidth="226.0" styleClass="button">
+                     <children>
+                        <FontAwesomeIconView glyphName="TROPHY" layoutX="14.0" layoutY="57.0" size="40" />
+                        <Label layoutX="62.0" layoutY="25.0" text="Risk Manager">
+                           <font>
+                              <Font size="25.0" />
+                           </font>
+                        </Label>
+                     </children>
+                  </Pane>
+                  <Button fx:id="projects" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onMouseClicked="#projectPressed" prefHeight="77.0" prefWidth="303.0" text="Projects">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="CODE" size="20" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                     <contextMenu>
+                        <ContextMenu>
+                          <items>
+                            <MenuItem mnemonicParsing="false" text="Unspecified Action" />
+                          </items>
+                        </ContextMenu>
+                     </contextMenu>
+                  </Button>
+                  <ComboBox fx:id="projectType" prefHeight="26.0" prefWidth="303.0" styleClass="button" stylesheets="@../css/StylesForButtons.css" />
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#coworkersButtonPressed" prefHeight="77.0" prefWidth="303.0" text="Coworkers">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="GROUP" size="20" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#notificationsButtonPressed" prefHeight="77.0" prefWidth="350.0" text="Notifications">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="BELL" size="20" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="330.0" text="Settings">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="GEAR" size="20" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onAction="#profileButtonPressed" prefHeight="77.0" prefWidth="337.0" text="Profile">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="BLIND" size="20" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" prefHeight="77.0" prefWidth="358.0" text="Search">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="SEARCH" size="20" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+                  <Button fx:id="info" alignment="BASELINE_LEFT" graphicTextGap="15.0" mnemonicParsing="false" onMouseClicked="#onClickMethod" prefHeight="77.0" prefWidth="364.0" text="Help">
+                     <padding>
+                        <Insets left="50.0" />
+                     </padding>
+                     <graphic>
+                        <FontAwesomeIconView glyphName="INFO" size="20" />
+                     </graphic>
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Button>
+               </children>
+            </VBox>
+            <Pane layoutX="284.0" prefHeight="634.0" prefWidth="762.0" styleClass="background" stylesheets="@../css/StylesForDarkElements.css">
+               <children>
+                  <BorderPane fx:id="borderPaneMainMenu" prefHeight="634.0" prefWidth="762.0" />
+               </children></Pane>
+         </children>
+      </AnchorPane>
+   </children>
+</GridPane>

@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import de.jensd.fx.glyphs.fontawesome.FontAwesomeIconView?>
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.HBox?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane prefHeight="634.0" prefWidth="1046.0" styleClass="background" stylesheets="@../css/StylesForDarkElements.css" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DesktopGUI.fxml.Help">
+   <children>
+      <VBox alignment="CENTER" prefHeight="634.0" prefWidth="1046.0">
+         <children>
+            <HBox alignment="CENTER" prefHeight="100.0" prefWidth="200.0" stylesheets="@../css/StylesForDarkElements.css">
+               <children>
+                  <TextField prefHeight="57.0" prefWidth="274.0" promptText="search here..." stylesheets="@../css/StylesForPieCharts.css">
+                     <font>
+                        <Font size="25.0" />
+                     </font>
+                  </TextField>
+                  <Button alignment="CENTER" contentDisplay="CENTER" mnemonicParsing="false" prefHeight="58.0" prefWidth="58.0">
+                     <graphic>
+                        <FontAwesomeIconView glyphName="SEARCH" size="40" />
+                     </graphic>
+                  </Button>
+               </children>
+            </HBox>
+            <TextArea prefHeight="482.0" prefWidth="1046.0" />
+            <Button alignment="CENTER" mnemonicParsing="false" prefHeight="32.0" prefWidth="105.0" text="Back" />
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>

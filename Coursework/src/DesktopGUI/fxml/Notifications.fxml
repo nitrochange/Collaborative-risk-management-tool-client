@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.ColumnConstraints?>
+<?import javafx.scene.layout.GridPane?>
+<?import javafx.scene.layout.RowConstraints?>
+<?import javafx.scene.layout.VBox?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="634.0" prefWidth="762.0" xmlns="http://javafx.com/javafx/11.0.1" xmlns:fx="http://javafx.com/fxml/1" fx:controller="DesktopGUI.Notifications.NotificationsControllers">
+   <children>
+      <GridPane prefHeight="634.0" prefWidth="762.0">
+        <columnConstraints>
+          <ColumnConstraints hgrow="SOMETIMES" minWidth="10.0" prefWidth="100.0" />
+        </columnConstraints>
+        <rowConstraints>
+          <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
+        </rowConstraints>
+      </GridPane>
+      <ScrollPane fx:id="notifications" hbarPolicy="NEVER" prefHeight="634.0" prefWidth="762.0" stylesheets="@../css/StylesForDarkElements.css">
+         <content>
+            <VBox fx:id="notificationsVBox" prefHeight="634.0" prefWidth="760.0" styleClass="background" stylesheets="@../css/StylesForDarkElements.css" />
+         </content>
+      </ScrollPane>
+   </children>
+</AnchorPane>

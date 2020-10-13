@@ -1,0 +1,18 @@
+col> hi
+you> hi, you're on time
+you> Dont you want to go with me to the lunch?
+col> not now....
+col> I have a lot of work to do, may be later
+you> you sure?
+col> yea
+col> if you wait me it will be really nice
+col> I'll try my best
+you> not a problem my friend
+col> ohhh, it more than I suppose
+col> Can you help me>
+you> What should i do?
+col> Can you design a labels for your client?
+col> It wont take a lot of time for you
+you> okey...
+you> Done
+col> Thank you a lot
